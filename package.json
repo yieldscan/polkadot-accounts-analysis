@@ -9,10 +9,12 @@
   "author": "Anson Lau",
   "license": "ISC",
   "dependencies": {
-    "@polkadot/api": "^2.6.1",
-    "@polkadot/util": "2.7.0-beta.5",
+    "@polkadot/api": "^4.5.1",
+    "@polkadot/util": "^6.1.1",
     "axios": "^0.21.0",
     "comma-number": "^2.0.1",
+    "json2xls": "^0.1.2",
+    "lodash": "^4.17.21",
     "ora": "^5.1.0",
     "yargs": "^16.1.1"
   }
