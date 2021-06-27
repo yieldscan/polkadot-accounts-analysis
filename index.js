@@ -54,7 +54,7 @@ let networkDenom = "DOT";
 
 	const spinnerAccounts = new Ora({
 		text: "Fetching Accounts",
-		spinner: process.argv[2],
+		spinner: process.argv[3],
 	});
 
 	spinnerAccounts.start();
@@ -75,7 +75,7 @@ let networkDenom = "DOT";
 
 	const spinnerValidators = new Ora({
 		text: "Fetching Validators",
-		spinner: process.argv[2],
+		spinner: process.argv[3],
 	});
 
 	spinnerValidators.start();
@@ -86,7 +86,7 @@ let networkDenom = "DOT";
 
 	const spinnerActiveAndOverSub = new Ora({
 		text: "Fetching StakingInfo",
-		spinner: process.argv[2],
+		spinner: process.argv[3],
 	});
 
 	spinnerActiveAndOverSub.start();
@@ -100,7 +100,7 @@ let networkDenom = "DOT";
 
 	const spinnerStakingInfo = new Ora({
 		text: "Fetching Staking Info",
-		spinner: process.argv[2],
+		spinner: process.argv[3],
 	});
 
 	spinnerStakingInfo.start();
@@ -121,7 +121,7 @@ let networkDenom = "DOT";
 
 	const spinnerBalances = new Ora({
 		text: "Fetching Balances",
-		spinner: process.argv[2],
+		spinner: process.argv[3],
 	});
 
 	spinnerBalances.start();
